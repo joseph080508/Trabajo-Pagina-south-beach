@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+body main #South_Beach {
+  background-image: url(/assets/img/South_Beach.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+body main #South_Beach .info {
+  width: 50%;
+}
+body main #South_Beach h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px black;
+  font-size: 50px;
+}
+body main #South_Beach p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+body main #South_Beach iframe {
+  width: 30%;
+}
+body main #Paseo_Privado {
+  background-color: #c1b9a3;
+  display: flex;
+}
+body main #Paseo_Privado h2 {
+  text-align: left;
+  letter-spacing: 5px;
+  color: rgba(15, 14, 14, 0.623);
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px black;
+  font-size: 50px;
+}
+body main #Paseo_Privado p {
+  color: white;
+  text-align: start;
+  font-size: 29px;
+}
+body main #Paseo_Privado img {
+  width: 30%;
+}
+body main #Beach {
+  background-color: #C2B280;
+  display: flex;
+}
+body main #Beach h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: rgba(15, 14, 14, 0.623);
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px black;
+  font-size: 50px;
+}
+body main #Beach p {
+  color: white;
+  text-align: start;
+  font-size: 29px;
+}
+body main #Beach iframe {
+  width: 30%;
+}
+body main #Tour_en_Segway {
+  background-color: #c1b9a3;
+  display: flex;
+}
+body main #Tour_en_Segway h2 {
+  text-align: left;
+  letter-spacing: 5px;
+  color: rgba(15, 14, 14, 0.623);
+  text-decoration: underline;
+  text-shadow: 2px 2px 0px black;
+  font-size: 50px;
+}
+body main #Tour_en_Segway p {
+  color: white;
+  text-align: start;
+  font-size: 29px;
+}
+body main #Tour_en_Segway img {
+  width: 30%;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  background-color: paleturquoise;
+  background-size: 100%;
+}
+body header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+body header nav ul li a {
+  text-decoration: none;
+}
+body header img {
+  width: 7%;
+}
+body footer {
+  background-color: paleturquoise;
+  display: flex;
+}
+body footer img {
+  width: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */
