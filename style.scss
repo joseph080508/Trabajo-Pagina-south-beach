@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+
+    main {
+   
+            #South_Beach {
+                background-image: url(/assets/img/South_Beach.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                width: 100%;
+                background-attachment: fixed;
+                display: flex;
+                justify-content: space-between;
+            .info {
+                width: 50%;
+            }
+            h1{
+                text-align: center;
+                letter-spacing: 5px;
+                color: white;
+                text-decoration: underline;
+                text-shadow: 2px 2px 0px black;
+                font-size: 50px;
+            }
+            p{
+                color: white;
+                text-align: center;
+                font-size: 30px;
+            }
+            iframe{
+                width: 30%;
+            }    
+        }
+    #Paseo_Privado {
+        background-color: #c1b9a3;
+        display: flex;
+        h2 {
+            text-align: left;
+            letter-spacing: 5px;
+            color: rgba(15, 14, 14, 0.623);
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px black;
+            font-size: 50px;
+        }
+        p {
+            color: white;
+            text-align: start;
+            font-size: 29px;
+        }
+        img{
+            width: 30%;
+        }
+
+    }
+    #Beach {
+        background-color: #C2B280;
+        display: flex;
+        h2 {
+
+            text-align: center;
+            letter-spacing: 5px;
+            color: rgba(15, 14, 14, 0.623);
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px black;
+            font-size: 50px;
+
+        }
+        p {
+            color: white;
+            text-align: start;
+            font-size: 29px;
+        }
+        iframe {
+            width: 30%;
+            }
+    }
+    #Tour_en_Segway{
+        background-color: #c1b9a3;
+        display: flex;
+        h2 {
+            text-align: left;
+            letter-spacing: 5px;
+            color: rgba(15, 14, 14, 0.623);
+            text-decoration: underline;
+            text-shadow: 2px 2px 0px black;
+            font-size: 50px;
+        }
+        p {
+            color: white;
+            text-align: start;
+            font-size: 29px;
+        }
+        img{
+            width: 30%;
+        }
+    }
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: paleturquoise;
+        background-size: 100%;
+
+        nav{
+
+            ul{
+                display: flex;
+                list-style:none;
+                gap: 10px;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        img{
+            width: 7%;
+            
+        }
+    }
+    footer{
+        background-color: paleturquoise;
+        display: flex;
+        img{
+            width: 3%;
+        }
+    } 
+}
